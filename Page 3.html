@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 3</title>
+    <style>
+        div{
+            border: 1px solid green;
+        }
+        span{
+            border: 1px solid red;
+        }
+    </style>
 </head>
 <body>
     <h1>หน้าที่ 3 </h1>
+    <h1>รายการสินค้า</h1>
+    <table border="2" bgcolor="pink" width="40%" cellpadding="8"  cellspacing="8">
+        <thead>
+            <th>รหัสสินค้า</th>
+            <th>ภาพสินค้า</th>
+            <th>ชื่อสินค้า</th>
+            <th>ราคา</th>
+            <th>ดำเนินการ</th>
+        </thead>
+        <tbody align="center">
+            <tr bgcolor="orange">
+                <td>C001</td>
+                <td bgcolor="grey" >
+                    <img src="https://i.pinimg.com/736x/ec/ba/21/ecba217fa648dcecd80f91e88dd8b889.jpg" alt="" width="80">
+                </td>
+                <td>ชาไทย</td>
+                <td>25.00</td>
+                <td rowspan="2" bgcolor="white">
+                    <a href="#">สั่งซื้อ</a>
+                    
+                </td>
+            </tr>
+            <tr bgcolor="green">
+                <td>C002</td>
+                <td bgcolor="grey" >
+                    <img src="https://i.pinimg.com/736x/76/8d/0e/768d0e15e22941f34f5a9ee88838d563.jpg" alt="" width="80">
+                </td>
+                <td>ชาเขียว</td>
+                <td>25.00</td>
+            </tr>
+            <tr></tr> <!--ไว้กรอกสินค้า-->
+            
+        </tbody>
+        <tfoot>
+            <tr align="right">
+                <td colspan="5"><strong>ราคารวม 50 บาท</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <h4>ใช้ span</h4>
+    <span>CSS</span>
+    <span>CSS</span>
+    <span>CSS</span>
+    <h4>ใช้ div</h4>
+    <div>CSS</div>
+    <div>CSS</div>
+    <div>CSS</div>
+
+
+
     <a href="index.html">กลับหน้หลัก</a>
 </body>
 </html>
